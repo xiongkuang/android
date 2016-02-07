@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Project1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="app_title"><b>Ten Question Flag Quiz</b></string>
+    <string name="question">Question 1 of 10</string>
+    <string name="guess">Guess the Country</string>
+    <string name="select_number">Select Number of Choices</string>
+    <string name="select_region">Select Regions</string>
+    <string name="action_settings">Settings</string>
+</resources>

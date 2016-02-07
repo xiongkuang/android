@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp" tools:context=".MainActivity"
+    android:background="#FBF8CB"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:id="@+id/main_page">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/app_title"
+        android:id="@+id/app_title"
+        android:gravity="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/question"
+        android:id="@+id/question"
+        android:gravity="center"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:layout_width="299dp"
+        android:layout_height="180dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/nicaragua_flag" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/guess"
+        android:id="@+id/guess"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="26dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@+id/button_table">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/row1">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Puerto Rico"
+                android:id="@+id/button"
+                android:layout_column="0"
+                android:textAllCaps="false"
+                android:textSize="18dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Grenada"
+                android:id="@+id/button2"
+                android:layout_column="1"
+                android:textAllCaps="false"
+                android:textSize="18dp" />
+
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Nicaragua"
+                android:id="@+id/button3"
+                android:layout_column="2"
+                android:singleLine="false"
+                android:textAllCaps="false"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/row2">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Bahamas"
+                android:id="@+id/button4"
+                android:layout_column="0"
+                android:textAllCaps="false"
+                android:textSize="18dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Guatemala"
+                android:id="@+id/button5"
+                android:layout_column="1"
+                android:textAllCaps="false"
+                android:textSize="18dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Aruba"
+                android:id="@+id/button6"
+                android:layout_column="2"
+                android:textAllCaps="false"
+                android:textSize="18dp" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="@string/select_number"
+        android:id="@+id/select_number"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:background="#000000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/select_region"
+        android:id="@+id/select_region"
+        android:layout_gravity="center_horizontal"
+        android:background="#F4C124"
+        android:gravity="center"
+        android:textSize="18dp" />
+
+
+</LinearLayout>
