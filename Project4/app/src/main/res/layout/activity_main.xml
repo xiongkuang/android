@@ -14,14 +14,15 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="1.5"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Name:"
             android:id="@+id/name_text"
             android:layout_column="0"
             android:gravity="right"
-            android:paddingRight="10dp" />
+            android:paddingRight="10dp"
+            android:textSize="15dp" />
 
         <EditText
             android:layout_width="match_parent"
@@ -43,14 +44,15 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="1.5"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Phone:"
             android:id="@+id/phone_text"
             android:layout_column="0"
             android:gravity="right"
-            android:paddingRight="10dp" />
+            android:paddingRight="10dp"
+            android:textSize="15dp" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -73,14 +75,15 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="1.5"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="E-Mail:"
             android:id="@+id/email_text"
             android:layout_column="0"
             android:gravity="right"
-            android:paddingRight="10dp" />
+            android:paddingRight="10dp"
+            android:textSize="15dp" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -103,14 +106,15 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="1.5"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Street:"
             android:id="@+id/street_text"
             android:layout_column="0"
             android:gravity="right"
-            android:paddingRight="10dp" />
+            android:paddingRight="10dp"
+            android:textSize="15dp" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -133,14 +137,15 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="1.5"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="City/State/Zip:"
             android:id="@+id/zip_text"
             android:layout_column="0"
             android:gravity="right"
-            android:paddingRight="10dp" />
+            android:paddingRight="10dp"
+            android:textSize="13dp" />
 
         <EditText
             android:layout_width="wrap_content"

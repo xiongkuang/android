@@ -128,27 +128,30 @@
         </TableRow>
     </TableLayout>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="69dp"
-        android:text="@string/select_number"
-        android:id="@+id/select_number"
-        android:layout_gravity="center_horizontal"
-        android:gravity="center"
-        android:textSize="18dp"
-        android:textColor="#ffffff"
-        android:background="#000000" />
-
-    <TextView
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/select_region"
-        android:id="@+id/select_region"
-        android:layout_gravity="center_horizontal"
-        android:background="#F4C124"
-        android:gravity="center"
-        android:textSize="18dp" />
+        android:layout_gravity="center_horizontal">
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/select_number"
+            android:id="@+id/button7"
+            android:background="#1A1B13"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/select_region"
+            android:id="@+id/button8"
+            android:textAllCaps="false"
+            android:background="#F3BF20" />
+    </LinearLayout>
 
 </LinearLayout>
